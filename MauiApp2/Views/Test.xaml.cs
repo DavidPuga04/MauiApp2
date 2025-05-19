@@ -9,6 +9,6 @@ public partial class Test : ContentPage
 
     private void BtnCambiarPagina_Clicked(object sender, EventArgs e)
     {
-		Navigation.PopAsync();
+		Navigation.PopToRootAsync();
     }
 }

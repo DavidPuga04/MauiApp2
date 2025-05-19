@@ -34,6 +34,7 @@
             <Button
                 x:Name="IrATest"
                 Text="Ir a Test"
+                Style="{StaticResource Boton1}"
                 Clicked="IrATest_Clicked_1"
                 />
         </VerticalStackLayout>
